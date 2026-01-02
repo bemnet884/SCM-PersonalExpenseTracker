@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import ExpenseList from '../components/ExpenseList';
+import ExpenseChart from '../components/ExpenseChart';
+import DailyExpenseChart from '../components/DailyExpenseChart';
 import { StorageKeys, Expense, User } from '../types';
 
 const Dashboard: React.FC = () => {
@@ -55,6 +57,12 @@ const Dashboard: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* Charts Section */}
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+          <ExpenseChart expenses={expenses} />
+          <DailyExpenseChart expenses={expenses} />
+        </section>
 
         {/* Expense History Section */}
         <section>
