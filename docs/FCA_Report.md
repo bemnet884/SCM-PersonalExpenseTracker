@@ -6,7 +6,7 @@
 ## Objective
 Verify that all approved Change Requests (CRs) and project features are implemented and functioning as intended.
 
-| Feature / CR | Implemented? | Verified By | Remarks |
+| Feature / CR | Implemented? | Tested | Remarks |
 |--------------|--------------|------------|--------|
 | User Login (src/pages/Login.tsx) | Yes | Tested | Works correctly, matches requirements |
 | User Registration | Yes | Tested | Works correctly |
