@@ -1,4 +1,3 @@
-
 export interface User {
   username: string;
   role: string;
@@ -14,6 +13,6 @@ export interface Expense {
 }
 
 export enum StorageKeys {
-  AUTH_USER = 'auth_user',
-  EXPENSES = 'user_expenses'
+  AUTH_USER = "auth_user",
+  EXPENSES = "user_expenses",
 }
