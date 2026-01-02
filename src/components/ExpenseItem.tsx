@@ -21,7 +21,7 @@ const ExpenseItem: React.FC<ExpenseItemProps> = ({ expense, onDelete }) => {
       </div>
       <div className="flex items-center gap-4">
         <span className="text-lg font-bold text-gray-900">${expense.amount.toFixed(2)}</span>
-        <button 
+        <button
           onClick={() => onDelete(expense.id)}
           className="text-gray-400 hover:text-red-500 transition-colors p-2"
           aria-label="Delete expense"
