@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import AddExpense from './pages/AddExpense';
 import Profile from './pages/Profile';
+import AdminUsers from './pages/AdminUsers';
 import { StorageKeys } from './types';
 
 /**
@@ -53,6 +54,15 @@ const App: React.FC = () => {
           element={
             <ProtectedRoute>
               <Profile />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/admin/users"
+          element={
+            <ProtectedRoute>
+              <AdminUsers />
             </ProtectedRoute>
           }
         />
