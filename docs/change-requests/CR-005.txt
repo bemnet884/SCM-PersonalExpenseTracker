@@ -1,0 +1,25 @@
+Change Request – CR-005
+
+CR ID: CR-005
+Date Submitted: 2026-01-02
+Submitted By: Burtukan Kussa
+
+Description of Change:
+Organize and improve reusable UI components and navigation structure.
+
+Affected Configuration Items (CIs):
+- src/components/Navbar.tsx
+- src/components/ExpenseList.tsx
+- src/components/ExpenseItem.tsx
+- src/App.tsx
+
+Reason for Change:
+Components should be better structured and reusable to support future enhancements and maintenance.
+
+Impact Assessment:
+- Schedule Impact: Medium
+- Resource Impact: Frontend Developer
+- Functional Impact: Improves maintainability and consistency
+
+Approval Status:
+Pending
