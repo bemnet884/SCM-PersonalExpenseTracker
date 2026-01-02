@@ -15,10 +15,10 @@
 ## CI Register
 
 | CI Name                  | Version | Owner             | Category    | Status      |
-| ------------------------ | ------- | ---------------- | ----------- | ----------- |
+| ------------------------ | ------- | ----------------  | ----------- | ----------- |
 | SCMP.md                  | 1.0     | Abdurezak Kemal   | Document    | Approved    |
 | CI_Register.md           | 1.0     | Beamlak Solomon   | Document    | Approved    |
-| Change_Request_Form.docx | 1.0     | Betelhem Seleshi    | Document    | Approved    |
+| Change_Request_Form.docx | 1.0     | Betelhem Seleshi  | Document    | Approved    |
 | Baseline_BL1.md          | 1.0     | Bemenet Beyene    | Document    | Approved    |
 | Baseline_BL2.md          | 1.0     | Bemenet Beyene    | Document    | Approved    |
 | README.md                | 1.0     | Abdurezak Kemal   | Document    | Approved    |
