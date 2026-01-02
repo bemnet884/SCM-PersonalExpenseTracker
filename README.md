@@ -87,18 +87,6 @@ feature/\*: individual member tasks (e.g., feature/ui-pages, feature/change-requ
 
 tags: BL1, BL2 for baselines
 
-# Contributors
-
-Member 1: SCMP Document
-
-Member 2: CI Register
-
-Member 3: Change Requests
-
-Member 4: Baseline Records
-
-Member 5: UI Pages
-
 Member 6: JSON Database & Components
 
 License
