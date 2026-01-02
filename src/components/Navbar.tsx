@@ -42,6 +42,11 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
               <Link to="/profile" className="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 transition">
                 Profile
               </Link>
+              {user.role === 'Administrator' && (
+                <Link to="/admin/users" className="px-3 py-2 rounded-md text-sm font-medium text-rose-600 hover:text-rose-700 hover:bg-rose-50 transition">
+                  Users
+                </Link>
+              )}
             </div>
           </div>
 
@@ -76,6 +81,11 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
             <Link to="/dashboard" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50">Dashboard</Link>
             <Link to="/add-expense" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50">Add Expense</Link>
             <Link to="/profile" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50">Profile</Link>
+            {user.role === 'Administrator' && (
+              <Link to="/admin/users" className="block px-3 py-2 rounded-md text-base font-medium text-rose-600 hover:bg-rose-50">
+                Users
+              </Link>
+            )}
             <div className="mt-2 border-t border-gray-100 pt-2">
               <button onClick={handleLogout} className="w-full text-left px-3 py-2 rounded-md text-base font-medium text-red-600 bg-red-50 hover:bg-red-100">Logout</button>
             </div>
